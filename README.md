@@ -85,3 +85,46 @@ local ped = PlayerPedId()  OR  CreatePed id
 
 ![This is an image](https://i.hizliresim.com/5nkwr5r.PNG)
 
+## QB MULTICHARACTER WARDROBE INSERT AND QB-CLOTHING DEPENCY ( THANKS FOR CosmosFractal )
+
+#### qb-apartments/client/client.lua line 559:
+
+<code>
+  RegisterNetEvent('apartments:client:ChangeOutfit', function()
+    TriggerServerEvent("InteractSound_SV:PlayOnSource", "Clothes1", 0.4)
+    TriggerEvent('bp_clothingv2:wardrobevent') 
+end)
+</code>
+
+##### qb-apartments/fxmanifest.lua:
+##### Remove dependency of qb-clothing
+
+#### - qb-houses/client/main.lua line 1451:
+
+<code>
+RegisterNetEvent('qb-houses:client:ChangeOutfit', function()
+    local outfitLoc = vector3(outfitLocation.x, outfitLocation.y, outfitLocation.z)
+    if CheckDistance(outfitLoc, 1.5) then
+        TriggerServerEvent("InteractSound_SV:PlayOnSource", "Clothes1", 0.4)
+        TriggerEvent('bp_clothingv2:wardrobevent') 
+    end
+end)
+</code>
+
+#####  qb-houses/fxmanifest.lua:
+##### Remove dependency of qb-clothing
+
+
+#### - qb-management/client/cl_boss.lua line 204:
+<code>
+RegisterNetEvent('qb-bossmenu:client:Wardrobe', function()
+    TriggerEvent('bp_clothingv2:wardrobevent')
+end)
+  </code>
+
+#### - qb-management/client/cl_gang.lua line 49:
+<code>
+RegisterNetEvent('qb-gangmenu:client:Warbobe', function()
+    TriggerEvent('bp_clothingv2:wardrobevent')
+end)
+</code>
