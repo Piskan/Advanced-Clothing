@@ -60,6 +60,17 @@ local ped = PlayerPedId()  OR  CreatePed id
 
 ## ESX LEGACY IDENTITY SETTINGS
 
-### FIRST YOU NEED GO BP_CLOTHINGV2 > CONFİG.LUA  AND DO FALSE  Config.playerload = false and watch the video
+#### FIRST YOU NEED GO BP_CLOTHINGV2 > CONFİG.LUA  AND DO FALSE  Config.playerload = false and watch the video
+
+[![Watch the video](https://kcdn-dfbd.kxcdn.com/wp-content/uploads/2014/02/Click-Here-to-Play-Video.jpg)](https://www.youtube.com/watch?v=WroQd6h_rT0)
+
+## ESX MULTICHARACTER
+
+#### ESX MULTICHARACTER 
+
+####Support is not given because all settings are made for esx_skin. I'm just throwing a version that you can use without installing peds
+
+### LINK : This site was built using [MULTICHARACTER](https://easyupload.io/eb4hu1).
+
 
 
