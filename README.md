@@ -56,3 +56,10 @@ local ped = PlayerPedId()  OR  CreatePed id
 </code>
 
 #### Deletes all player's clothes, wardrobes and tattoos
+
+
+## ESX LEGACY IDENTITY SETTINGS
+
+### FIRST YOU NEED GO BP_CLOTHINGV2 > CONFİG.LUA  AND DO FALSE  Config.playerload = false and watch the video
+
+
