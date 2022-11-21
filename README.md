@@ -70,7 +70,7 @@ local ped = PlayerPedId()  OR  CreatePed id
 
 ####Support is not given because all settings are made for esx_skin. I'm just throwing a version that you can use without installing peds
 
-### LINK :  [MULTICHARACTER](https://easyupload.io/eb4hu1).
+### LINK :  [MULTICHARACTER](https://easyupload.io/wqc0c4).
 
 
 ## QB MULTICHARACTER INFOS
