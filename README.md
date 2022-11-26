@@ -75,7 +75,7 @@ local ped = PlayerPedId()  OR  CreatePed id
 
 ## QB MULTICHARACTER INFOS
 
-### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/emxk3z).
+### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/bhsyxh).
 
 #### QB MULTICHARACTER - CLIENT PART
 
