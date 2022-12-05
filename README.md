@@ -70,12 +70,12 @@ local ped = PlayerPedId()  OR  CreatePed id
 
 ####Support is not given because all settings are made for esx_skin. I'm just throwing a version that you can use without installing peds
 
-### LINK :  [MULTICHARACTER](https://easyupload.io/rf0p50).
+### LINK :  [MULTICHARACTER]().
 
 
 ## QB MULTICHARACTER INFOS
 
-### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/bhsyxh).
+### LINK :  [QB-MULTICHARACTER-EXAMPLE](https://easyupload.io/rf0p50).
 
 #### QB MULTICHARACTER - CLIENT PART
 
